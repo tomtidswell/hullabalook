@@ -18,5 +18,10 @@ export default [
     'logo': require('@/assets/newbalance-logo.png'),
     'image': require('@/assets/newbalance.webp'),
     'brand': 'new balance'
+  },
+  { 
+    'logo': require('@/assets/puma-logo.png'),
+    'image': require('@/assets/puma.webp'),
+    'brand': 'puma'
   }
 ]

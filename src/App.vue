@@ -67,7 +67,7 @@ export default {
       isActive: false,
       timer: null,
       hasWon: false,
-      seconds: 300,
+      seconds: 30,
       tileSelected: null,
       message: 'Start',
       pairs: [],
@@ -88,7 +88,7 @@ export default {
     },
     stop() {
       this.isActive = false
-      this.seconds = 300
+      this.seconds = 30
       clearInterval(this.timer)
       this.pairs = []
       this.tileSelected = null
@@ -121,12 +121,10 @@ export default {
         this.tileSelected = null
       }
       //detect an unsuccesful pairing
-      if(this.tileSelected !== brand) {
-        this.incorrectChoices.push(brand)
-      }
+      if(this.tileSelected !== brand) this.incorrectChoices.push(brand)
 
       //detect win conditions
-      if (this.pairs.length === 4) this.triggerWin()
+      if (this.pairs.length === data.length) this.triggerWin()
     }
   }
 }
