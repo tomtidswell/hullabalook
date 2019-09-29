@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Courier New'
+}
+
+#app {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#app > * {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to{
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+.fade-enter-active, 
+.fade-leave-active{
+  transition: all .3s ease;
+}
+
+.fade-enter, 
+.fade-leave-to{
+  opacity: 0;
+}
