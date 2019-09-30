@@ -129,10 +129,12 @@ export default {
   }
 }
 </script>
+// background-color: #FFFFFF;
+// background-image: linear-gradient(165deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
 
 <style>
 header{
-  background-color: rgb(61, 61, 61);
+  background: linear-gradient(170deg, #df8e16 0%, #e64b33 45%, #e64b33 55%,  #df8e16 100%);
   color: white !important;
   padding-top: 2em;
 }
@@ -146,8 +148,9 @@ header .tab .tab-item a:hover{
   margin-right: 20px;
 }
 header .tab .tab-item.active a{
-  color: #e64b33;
-  border-bottom-color: #e64b33;
+  color: #3d3d3d;
+  font-weight: 700;
+  border-bottom-color: #3d3d3d;
   border-bottom-width: 3px;
 }
 .tab{
@@ -181,7 +184,8 @@ button{
 .tiles {
   min-width: 100%;
   height: 240px;
-  background: linear-gradient(#ddd 0%, #ddd 65%, #e64b33 78%, #3d3d3d 78%, #fff 90%);
+  background: linear-gradient(#ddd 0%, #df8e16 45%, #e64b33 78%, #3d3d3d 78%, #fff 90%);
+  /* background: linear-gradient(170deg, #000 0%, #e64b33 45%, #e64b33 55%,  #000 100%); */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

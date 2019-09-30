@@ -38,7 +38,7 @@ export default {
   width: 200px;
   height: 200px;
   margin: 10px;
-  box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
+  box-shadow: 0 0.25rem 1rem rgba(48,55,66,.3);
   transition: all 1s;
 }
 .tile.active{

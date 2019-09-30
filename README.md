@@ -35,7 +35,7 @@ Once the project has loaded, simply click the start button to initiate the timer
 
 # Key Features
 * I demonstrated use of many different parts of Vue capability: multiple components, conditional rendering, computed properties, transitions, scoped styling
-* It is responsive
+* It is responsive (with some tweaks needed)
 * It is extensible. If the data array is extended, the app will display the game accordingly
 
 
@@ -46,3 +46,4 @@ Once the project has loaded, simply click the start button to initiate the timer
 # Bugs
 * The animations can seem a little glitchy when clicking between products
 * The interface seems a little sparse, so the design should be improved
+* When the browser is tablet sized the tiles can cut off to the right - this behaviour is ok on mobile but is awkward wihtout touch to scroll right
